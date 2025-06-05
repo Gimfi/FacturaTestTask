@@ -11,3 +11,6 @@ This Unity project implements a basic yet scalable enemy and shooting system des
 * **Zenject** — dependency injection container
 * **Addressables** — for async prefab/resource loading
 * **Unity Physics** — collider interactions
+
+## 🎮 Gameplay
+[![Watch the video](https://img.youtube.com/vi/mmhYRoMCABo/0.jpg)](https://www.youtube.com/shorts/mmhYRoMCABo)
