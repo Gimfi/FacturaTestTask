@@ -27,7 +27,7 @@ namespace Core.UI
         {
             if (m_UIElements.Remove(elementId))
             {
-                UIElementDestroyRequest destroyRequest = new UIElementDestroyRequest(place, elementId);
+                UIElementDestroyRequest destroyRequest = new UIElementDestroyRequest(elementId);
                 m_OnUIElementDestroyRequest.OnNext(destroyRequest);
             }
         }
@@ -45,7 +45,7 @@ namespace Core.UI
         {
             if (m_UIElements.Remove(popupId))
             {
-                UIElementDestroyRequest destroyRequest = new UIElementDestroyRequest(UISystemPlaces.SafeArea, popupId);
+                UIElementDestroyRequest destroyRequest = new UIElementDestroyRequest(popupId);
                 m_OnUIElementDestroyRequest.OnNext(destroyRequest);
             }
         }
