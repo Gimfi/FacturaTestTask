@@ -32,7 +32,7 @@ namespace Core.Asset
                 Debug.LogException(e);
                 Addressables.Release(handle);
             }
-            
+
             return result;
         }
     }

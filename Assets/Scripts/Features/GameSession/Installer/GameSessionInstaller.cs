@@ -11,7 +11,7 @@ namespace Features.GameSession
             container.BindInterfacesTo<GameSessionVehicleMover>().AsSingle();
             container.BindInterfacesTo<GameCompletionController>().AsSingle();
             container.BindInterfacesTo<GameSessionService>().AsSingle();
-            
+
             container.BindInterfacesTo<GameSessionUICreator>().AsSingle();
         }
     }

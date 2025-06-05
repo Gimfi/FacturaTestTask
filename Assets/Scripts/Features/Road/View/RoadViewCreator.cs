@@ -15,7 +15,7 @@ namespace Features.Road.View
 
         private readonly Subject<RoadSegmentView> m_OnRoadSegmentViewLoaded = new();
         private readonly Subject<RoadCreateRequest> m_OnRoadCreateRequest = new();
-        
+
         public RoadViewCreator(IRoadService service, IAssetProvider assetProvider)
         {
             m_Service = service;

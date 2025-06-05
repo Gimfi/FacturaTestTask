@@ -40,7 +40,7 @@ namespace Features.Enemies.View
         {
             float distance = Vector3.Distance(position, Root.transform.localPosition);
             float speed = distance / Time.deltaTime;
-            
+
             m_Animator.SetFloat(m_SpeedHash, speed);
         }
 

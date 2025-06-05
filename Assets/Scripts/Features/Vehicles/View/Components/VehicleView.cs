@@ -6,7 +6,6 @@ namespace Features.Vehicles.View
     {
         public void Release()
         {
-            
         }
     }
 }

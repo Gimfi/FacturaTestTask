@@ -6,7 +6,6 @@ namespace Features.Road.View
     {
         public void Release()
         {
-            
         }
     }
 }

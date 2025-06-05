@@ -6,7 +6,7 @@ namespace Features.Enemies
     public sealed class EnemyModel
     {
         private readonly Dictionary<Type, IEnemyComponent> m_Components = new();
-        
+
         public void AddComponent<T>(T component) where T : IEnemyComponent
         {
             m_Components[typeof(T)] = component;

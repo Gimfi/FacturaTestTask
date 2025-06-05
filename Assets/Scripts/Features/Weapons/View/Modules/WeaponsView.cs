@@ -9,10 +9,10 @@ namespace Features.Weapons.View
 
         [SerializeField]
         private WeaponsRotationView m_RotationComponent;
-        
+
         [SerializeField]
         private WeaponsFireView m_FireView;
-        
+
 
         private Camera m_MainCamera;
 

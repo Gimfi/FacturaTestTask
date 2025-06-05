@@ -33,7 +33,7 @@ namespace Features.Enemies
                     Vector3 currentPosition = enemyPosition.Position.Value;
                     Vector3 distance = direction * (EnemiesConstants.EnemiesParams.Speed * Time.deltaTime);
                     enemyPosition.SetPosition(currentPosition + distance);
-                    
+
                     Quaternion lookRotation = Quaternion.LookRotation(direction);
                     enemyPosition.SetRotation(lookRotation);
                 }

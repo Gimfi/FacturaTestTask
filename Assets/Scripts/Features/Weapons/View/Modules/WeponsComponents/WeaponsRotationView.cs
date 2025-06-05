@@ -34,4 +34,3 @@ namespace Features.Weapons.View
         }
     }
 }
-

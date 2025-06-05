@@ -22,7 +22,7 @@ namespace Features.Road
         {
             m_IsRoadCreated = false;
             m_AnchorPosition = Vector3.zero;
-            
+
             RoadCreateRequest roadCreateRequest = GetRoadCreateRequest();
             m_OnRoadCreateRequest.OnNext(roadCreateRequest);
             await UniTask.WaitUntil(() => m_IsRoadCreated);

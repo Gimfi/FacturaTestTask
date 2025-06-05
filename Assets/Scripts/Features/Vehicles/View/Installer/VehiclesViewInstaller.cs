@@ -8,7 +8,7 @@ namespace Features.Vehicles.View
     {
         [SerializeField]
         private VehicleContainerView m_VehicleContainerView;
-        
+
         public override void InstallBindings()
         {
             Container.Bind<VehicleContainerView>().FromInstance(m_VehicleContainerView).AsSingle();

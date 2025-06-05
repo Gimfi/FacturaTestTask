@@ -13,12 +13,12 @@ namespace Features.Enemies
             container.BindInterfacesTo<EnemiesInitializer>().AsSingle();
             container.BindInterfacesTo<EnemyCreator>().AsSingle();
             //
-            
+
             container.BindInterfacesTo<EnemiesValidator>().AsSingle();
             container.BindInterfacesTo<EnemiesHpObserver>().AsSingle();
             container.BindInterfacesTo<EnemiesAttackBehavior>().AsSingle();
             container.BindInterfacesTo<EnemiesService>().AsSingle();
-            
+
             container.BindInterfacesAndSelfTo<EnemiesViewCreator>().AsSingle();
         }
     }

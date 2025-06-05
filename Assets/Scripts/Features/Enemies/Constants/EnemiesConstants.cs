@@ -15,7 +15,7 @@ namespace Features.Enemies
         public static readonly Vector3 ValidSegment;
         public static readonly Vector3 SpawnSegmentShift;
         public static readonly Vector3 SpawnSegment;
-        
+
         public static class EnemiesParams
         {
             public const int Hp = 6;

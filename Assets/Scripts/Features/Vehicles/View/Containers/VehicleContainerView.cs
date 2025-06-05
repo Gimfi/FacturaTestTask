@@ -20,7 +20,7 @@ namespace Features.Vehicles.View
 
         private readonly ReactiveCommand<GameObject> m_OnNewVehicleSpawned = new();
         public IObservable<GameObject> OnNewVehicleSpawned => m_OnNewVehicleSpawned;
-        
+
         [Inject]
         private void Construct(IVehiclesService vehiclesService, VehiclesViewCreator vehiclesViewCreator,
             IFactory<VehicleView, Transform, UniTask<VehicleView>> vehiclesViewFactory)

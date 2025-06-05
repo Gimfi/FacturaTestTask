@@ -46,7 +46,7 @@ namespace Features.Road.View
         {
             m_LastSegmentIndex = 0;
             m_CurrentRoadData = data;
-            
+
             RemoveAllOldSegments();
             CreateRoad().Forget();
         }

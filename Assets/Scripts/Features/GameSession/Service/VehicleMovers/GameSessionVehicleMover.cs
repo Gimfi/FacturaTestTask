@@ -34,7 +34,7 @@ namespace Features.GameSession
             {
                 float deltaTime = Time.deltaTime;
                 m_CurrentSpeed = Mathf.Min(m_CurrentSpeed + m_Acceleration * deltaTime, m_MaxSpeed);
-                
+
                 time += deltaTime;
                 float xOffset = Mathf.Sin(time * m_SwerveFrequency) * m_SwerveAmplitude;
                 xOffset = Mathf.Clamp(xOffset, -m_MaxOffsetFromCenter, m_MaxOffsetFromCenter);
