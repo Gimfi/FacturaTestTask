@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CharactersInternal
+  m_EditorClassIdentifier: 
+  m_GroupName: CharactersInternal
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 40271afa427876a438cb815a25a4332e
+  m_SerializeEntries:
+  - m_GUID: 201801d8781a2b6428f5949479422032
+    m_Address: Characters/Stickman
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 38af0914a0f402546bcda1d0c5ec9334, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7f4a110d3e700d746889118ba9e2e3d2, type: 2}
+    - {fileID: 11400000, guid: 5992b4825d22b424ab0c21eda486a7fe, type: 2}

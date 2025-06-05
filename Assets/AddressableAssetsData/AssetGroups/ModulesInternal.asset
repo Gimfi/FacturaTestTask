@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ModulesInternal
+  m_EditorClassIdentifier: 
+  m_GroupName: ModulesInternal
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8c67936f3672be64a99eb03726b22236
+  m_SerializeEntries:
+  - m_GUID: b2331693eaae4ba48a0923fa7f2279f2
+    m_Address: Turrets/Classic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 38af0914a0f402546bcda1d0c5ec9334, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 185ca82522d3f8d49bf972a4e8bf871b, type: 2}
+    - {fileID: 11400000, guid: 9ab09e46745e8e9459ce0dd4b371b2fc, type: 2}
